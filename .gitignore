@@ -2,3 +2,4 @@
 /venv/
 /screenshots/
 /.idea
+/__pycache__
