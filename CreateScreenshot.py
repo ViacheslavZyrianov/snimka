@@ -19,3 +19,4 @@ def create_screenshot(driver, data):
             driver.set_window_size(resolution['w'], resolution['h'])
             filename = _format_filename(site['link'], resolution['w'], resolution['h'])
             driver.save_screenshot('screenshots/' + filename)
+            print(filename)

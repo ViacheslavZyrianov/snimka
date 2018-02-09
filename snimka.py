@@ -10,7 +10,10 @@ if os.path.exists('screenshots'):
 
 os.makedirs('screenshots')
 
-driver = webdriver.Chrome()
+options = webdriver.ChromeOptions()
+options.add_argument('headless')
+
+driver = webdriver.Chrome(chrome_options=options)
 
 url_to_open = 'http://snimka.local/test-data.php'
 
