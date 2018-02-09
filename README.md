@@ -1,5 +1,7 @@
-Install dependencies
-pip -r install dependencies.txt
+#Install dependencies
+`pip -r install dependencies.txt`
 
-Launch
-write in terminal "python snimka.py"
+#Launch
+Write in terminal `python snimka.py`
+
+#Be happy :)
