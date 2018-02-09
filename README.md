@@ -4,4 +4,4 @@
 # Launch
 Write in terminal `python snimka.py`
 
-#Be happy :)
+# Be happy :)
