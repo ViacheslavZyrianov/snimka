@@ -1,11 +1,5 @@
-import re
-
-
 def _format_link(link):
-    link = re.sub('https?://', '', str(link))
-    link = re.sub('[:?/=]', '-', str(link))
-    # link.replace('http://', '').replace('https://', '').replace('/?#', '-')
-    return link
+    return link.replace('http://', '').replace('https://', '').replace('www.', '').replace('/', '-')
 
 
 def _format_filename(link, width, height):

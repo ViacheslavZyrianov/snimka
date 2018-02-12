@@ -13,5 +13,9 @@
                 'link'=> 'http://selenium-python.readthedocs.io/',
                 'resolutionList'=> [],
             ],
+	        [
+                'link'=> 'https://www.facebook.com/?kek=puk#2',
+                'resolutionList'=> [],
+            ],
 	    ]
 	]);
