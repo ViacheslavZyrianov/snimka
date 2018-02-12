@@ -1,4 +1,4 @@
-class elementHasCssClass(object):
+class ElementHasCssClass(object):
     def __init__(self, locator, css_class):
         self.locator = locator
         self.css_class = css_class

@@ -1,9 +1,10 @@
 from selenium import webdriver
 import shutil
 import os
-import urllib.request, json
+import urllib.request
+import json
 
-from CreateScreenshot import create_screenshot
+from create_screenshot import create_screenshot
 
 if os.path.exists('screenshots'):
     shutil.rmtree('screenshots')
@@ -12,7 +13,6 @@ os.makedirs('screenshots')
 
 options = webdriver.ChromeOptions()
 options.add_argument('headless')
-
 driver = webdriver.Chrome(chrome_options=options)
 
 url_to_open = 'http://snimka.local/test-data.php'

@@ -4,6 +4,7 @@ import re
 def _format_link(link):
     link = re.sub('https?://', '', str(link))
     link = re.sub('[:?/=]', '-', str(link))
+    # link.replace('http://', '').replace('https://', '').replace('/?#', '-')
     return link
 
 
