@@ -1,21 +1,22 @@
 <?php
-	header('Content-Type: application/json');
+	header("Content-Type: application/json");
 	echo json_encode([
 	    "resolutionList"=>[
 	        [
-	            "w"=>1920,
-	            "h"=>1080
-	        ],
-
+	            "w"=>1024,
+	            "h"=>768
+	        ]
 	    ],
 	    "siteList"=>[
 	        [
-                'link'=> 'http://selenium-python.readthedocs.io/',
-                'resolutionList'=> [],
+                "link"=> "https://reactjs.org/docs/forms.html",
+                "resolutionList"=> [
+                ],
             ],
 	        [
-                'link'=> 'https://www.facebook.com/?kek=puk#2',
-                'resolutionList'=> [],
+                "link"=> "http://timotei-promo.labgrape.com/",
+                "resolutionList"=> [
+                ],
             ],
 	    ]
 	]);
